@@ -7,6 +7,6 @@ def home(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('calculator.urls')), 
+    path('api/', include('calculator1.urls')), 
     path('', home),  
 ]
