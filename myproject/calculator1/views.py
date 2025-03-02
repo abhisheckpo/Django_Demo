@@ -15,6 +15,7 @@ def calculate_sum(request):
             # Save to MySQL
             SumRecord.objects.create(num1=num1, num2=num2, sum_result=result)
             
+            #Response
             return JsonResponse({"sum": result})
         except Exception as e:
             return JsonResponse({"error": str(e)}, status=400)
