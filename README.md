@@ -46,11 +46,4 @@ python manage.py runserver
 
 Visit http://127.0.0.1:8000/ in your browser to see the app in action.
 
-Project Structure
-
-Django_Demo/
-│-- manage.py          # Django project management script
-│-- requirements.txt   # Project dependencies
-│-- myapp/             # Sample Django app (Replace with your actual app name)
-│-- db.sqlite3         # SQLite database (default)
 
